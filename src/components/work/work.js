@@ -6,7 +6,7 @@ import eCommerce from '../assets/e-commerce2.png'
 import share from '../assets/airshare.png'
 import uni from '../assets/uni.png'
 import text from '../assets/text.png'
-import  HiOutlineExternalLink  from "react-icons/hi";
+import { HiOutlineExternalLink } from "react-icons/hi";
 // import { Link } from 'react-router-dom'
 
 
