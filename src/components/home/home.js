@@ -13,9 +13,9 @@ function Home() {
     <div className='home-parent'>
       <div className='home-left ' data-aos="fade-right">
       <div className='icon'>
-       <a href='https://www.linkedin.com/in/syed-shaheer-567b23280' target='_blank'><img className='link-icon' src={linkedin} alt=''/></a>
-       <a href='https://www.facebook.com/muhammad.shaheer.92/' target='_blank'><img className='facebook-icon' src={facebook} alt=''/></a>
-       <a href='https://github.com/SyedShaheer01' target='_blank'><img className='social-icon' src={github} alt=''/></a>
+       <a href='https://www.linkedin.com/in/syed-shaheer-567b23280' target='_blank' rel="noopener noreferrer" ><img className='link-icon' src={linkedin} alt=''/></a>
+       <a href='https://www.facebook.com/muhammad.shaheer.92/' target='_blank' rel="noopener noreferrer" ><img className='facebook-icon' src={facebook} alt=''/></a>
+       <a href='https://github.com/SyedShaheer01' target='_blank' rel="noopener noreferrer" ><img className='social-icon' src={github} alt=''/></a>
 
       </div>
       <div className='my-about' data-aos="fade-right">
