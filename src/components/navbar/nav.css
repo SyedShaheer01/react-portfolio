@@ -1,0 +1,129 @@
+.parent-container{
+    animation: fadeIn 2s;
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:18px 0;
+    gap: 40%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #212ea0;
+    color: white;
+    
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.nav-right ul li{
+    position: relative;
+}
+
+.nav-right ul li::after{
+    content: '';
+        height: 3px;
+        width: 0;
+        background: #acb5f7;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: 0.5s;
+ }
+ .nav-right ul li:hover::after {
+    width: 100%;
+}
+
+
+.logo{
+    position:absolute;
+    top: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    color:white;
+    font-style: italic;
+    letter-spacing: 1px;
+   animation: bounce 0.5s cubic-bezier(0.8,0,1,1) infinite alternate;
+}
+.menu-icon{
+    width: 30px ;
+    height: 20px ; 
+     display: none; 
+}
+@keyframes bounce{
+    100%{
+        margin-top:10px ;
+
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* @media (max-Width:800px){
+
+    .nav-right ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+} */
+
+@media (max-Width:800px){
+
+    .nav-right ul{
+        display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #212ea0;
+            z-index: -1;
+            width: 150px;
+            padding-top: 70px;
+            transition: 0.5s;
+            display: block;
+            
+            
+        }
+        .nav-right ul li{
+            /* margin-bottom: 10px; */
+            padding: 20px;
+            margin-left: 20px;
+        }
+    
+    .nav-parent{
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 18px;
+    }
+    
+    .logo{
+        left: 10px;
+        font-size: 20px;
+    }
+    .menu-hide{
+        right: -200px !important;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-right ul li::after{
+        display: none;
+       
+     }
+}

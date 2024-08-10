@@ -1,0 +1,47 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s;
+}
+.loader h1{
+  color: #212ea0;
+  font-weight: 500;
+  font-size: 40px;
+  font-style: italic;
+  /* margin-bottom: 10px; */
+  letter-spacing: 1px;
+}
+.loader h3{
+  font-size: 30px;
+  color:#212ea0;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-Width:600px){
+  .app{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* padding: 10px; */
+  }
+  
+  .loader h1{
+    font-size: 30px;
+  }
+  .glass{
+    width: 80px;
+  }
+  .loader h3{
+    font-size: 22px;
+  }
+
+}

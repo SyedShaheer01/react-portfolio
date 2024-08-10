@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15%;
+}
+.work-heading h1{
+    color: #212ea0;
+    font-size: 35px;
+
+}
+.work-heading hr{
+    border: 2px solid #192381;
+    width: 90px;
+    margin: auto;
+}
+
+
+.screen{
+    
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 20px;
+     /* width: 100%; */
+     /* margin: auto; */
+     margin-top: 40px;
+     
+     
+     
+ 
+     
+ }
+ 
+ /* .screen img{
+     width: 300px;
+     height: 210px;
+    } */
+    
+ .work{
+     border-radius: 8px;
+     position: relative;
+     overflow: hidden;
+     cursor: pointer;
+     margin-bottom: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+    .work img{
+        
+     display: block;
+     width: 280px;
+     height:180px;
+     transition: transform 0.5s;
+    }
+ .layer{
+    background: rgba(0, 15 ,152 , 0.5);
+     border-radius: 8px;
+     width: 100%;
+     height: 0;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     overflow: hidden;
+     display: flex;
+     opacity: 0;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     /* padding: 0px 40px; */
+     /* padding-top: 20px; */
+     font-size: 14px;
+     transition: height 0.5s;
+     /* cursor: pointer; */
+ 
+     
+ }
+ .layer p{
+    font-weight: 800px !important;
+ }
+ .layer h3{
+     font-weight: 500px;
+     margin-bottom: 10px;
+ }
+  .layer a{
+ 
+     text-decoration: none;
+     /* color: #ff004f; */
+     margin-top: 10px;
+     font-size: 18px;
+     line-height: 50px;
+     background: #fff;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     text-align: center;
+ } 
+ .work:hover img{
+     transform: scale(1.1);
+ }
+ .work:hover .layer{
+     height: 100%;
+     opacity: 1;
+
+ }
+ 
+ .load-btn{
+    background-color: transparent;
+    padding: 13px 32px;
+    text-align: center;
+    border: 2px solid #212ea0;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #192381;
+    cursor: pointer;
+}
+.load-btn:hover{
+    background-color: #212ea0;
+    transition: 0.3s !important;
+    color: white;
+ }
