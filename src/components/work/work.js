@@ -40,7 +40,7 @@ function Work() {
     <div className="main2">
       <div className="screen">
         <div className="work">
-          <img src={food} alt="" />
+          <img className='food-img' src={food} alt="" />
           <div className="layer">
             <h3 style={{ color: "white"}}>Food-Application</h3>
             <p style={{ color: "white" }}>with Next.JS(Mern Stack)</p>
