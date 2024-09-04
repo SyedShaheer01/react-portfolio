@@ -58,7 +58,7 @@ function Work() {
             <h3 style={{ color: "white" }}>E-Commerce</h3>
             <p style={{ color: "white" }}> With Mern Stack</p>
             <a
-              href="https://e-commerce-eight-lilac.vercel.app/"
+              href="https://e-commerce-five-ecru.vercel.app/"
               target="_blank" rel="noopener noreferrer"  
             >
               <HiOutlineExternalLink color='#212c89' />
