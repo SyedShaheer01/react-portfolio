@@ -6,6 +6,7 @@ import eCommerce from '../assets/e-commerce2.png'
 import share from '../assets/airshare.png'
 import uni from '../assets/uni.png'
 import text from '../assets/text.png'
+import food from '../assets/Screenshot (8).png'
 import { HiOutlineExternalLink } from "react-icons/hi";
 // import { Link } from 'react-router-dom'
 
@@ -39,12 +40,12 @@ function Work() {
     <div className="main2">
       <div className="screen">
         <div className="work">
-          <img src={ticTac} alt="" />
+          <img src={food} alt="" />
           <div className="layer">
-            <h3 style={{ color: "white"}}>Tic-Tac-toe game</h3>
-            <p style={{ color: "white" }}> with React.JS</p>
+            <h3 style={{ color: "white"}}>Food-Application</h3>
+            <p style={{ color: "white" }}>with Next.JS(Mern Stack)</p>
             <a
-              href="https://syedshaheer01.github.io/Tic-Tac-Toe-game/"
+              href="https://food-app-rosy-one-46.vercel.app/"
               target="_blank"  rel="noopener noreferrer" 
             >
             <HiOutlineExternalLink color='#212c89' />
@@ -98,17 +99,17 @@ function Work() {
              </a>
            </div>
          </div>
-           {/* <div className="work">
-           <img src={developer} alt="" />
+           <div className="work">
+           <img src={ticTac} alt="" />
            <div className="layer">
-             <h3 style={{ color: "white" }}>Saylani Form</h3>
-             <p style={{ color: "white" }}> form</p>
-             <a href="https://syedshaheer01.github.io/form/" target="_blank">
+             <h3 style={{ color: "white" }}>Tic-Tac-toe game</h3>
+             <p style={{ color: "white" }}>with React.JS</p>
+             <a href="https://syedshaheer01.github.io/Tic-Tac-Toe-game/" target="_blank">
              <HiOutlineExternalLink color='#212c89' />
              </a>
            </div>
          </div>
-           <div className="work">
+           {/* <div className="work">
            <img src={developer} alt="" />
            <div className="layer">
              <h3 style={{ color: "white" }}>Saylani Form</h3>
