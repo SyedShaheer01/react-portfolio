@@ -45,7 +45,7 @@ function Work() {
             <h3 style={{ color: "white"}}>Food-Application</h3>
             <p style={{ color: "white" }}>with Next.JS(Mern Stack)</p>
             <a
-              href="https://food-app-rosy-one-46.vercel.app/"
+              href="https://food-app-one-pearl.vercel.app/"
               target="_blank"  rel="noopener noreferrer" 
             >
             <HiOutlineExternalLink color='#212c89' />
