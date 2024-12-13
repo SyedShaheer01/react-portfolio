@@ -1,0 +1,160 @@
+.home-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: start;
+    flex-wrap: wrap;
+    position: relative;
+    /* height: 100%; */
+    padding-bottom: 12%;
+    padding-top: 8%;
+background: -webkit-linear-gradient(to right, #86a1dd, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #83a4d4, #7ca1d6, #ea89a8 , #a0baef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+animation: gradient 10s linear infinite;
+background-size: 400% 400%;
+}
+@keyframes gradient{
+  0%{
+    background-position: 0% 50%;
+
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.custom-shape-divider-bottom-1722341926 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722341926 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.custom-shape-divider-bottom-1722341926 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1722341926 svg {
+      width: calc(155% + 1.3px);
+      height: 123px;
+  }
+}
+.my-about{
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 10px;
+
+}
+.social-icon{
+  width: 50px;
+  cursor: pointer;
+}
+.facebook-icon{
+  width: 35px;
+  cursor: pointer;
+}
+.link-icon{
+  width: 55px;
+  cursor: pointer;
+}
+.home-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.btn{
+  padding: 10px 38px;
+  background-color: transparent;
+  border: 2px solid #212ea0;
+  color: rgb(232, 225, 225);
+  font-weight: 500;
+  font-size: 14px;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover{
+  background-color: #212ea0;
+  color: white;
+}
+.my-about p{
+  color: rgb(232, 225, 225);
+}
+.my-about h2{
+  color: #353e8f;
+}
+.my-about h1{
+  color: rgb(232, 225, 225);
+}
+.my-about h1 span{
+  color: #212ea0;
+}
+
+@media (max-Width:600px){
+  .home-parent{
+  
+  padding-bottom: 20%;
+  
+  }  
+  .my-about h1{
+    font-size: 18px;
+    margin-top: 25%;
+  }
+  .my-about{
+    margin-bottom: 5%;
+    /* gap: 0; */
+  }
+  .btn{
+    padding: 5px 20px;
+  }
+  .my-about h2{
+    font-size: 17px;
+  }
+  .my-about p{
+    font-size: 12px;
+  }
+  .icon{
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .home-right img{
+    width: 350px;
+    /* margin-top: 8%; */
+    margin-bottom: 8%;
+    margin-top: -5%;
+  }
+  .social-icon{
+    width: 40px !important;
+  }
+  .facebook-icon{
+    width: 30px !important;
+  }
+  .link-icon{
+    width: 45px !important;
+  }
+}
